@@ -42,7 +42,7 @@
 
 ***git小结***
 
- --git init
+  --git init
 
  --git add .
 
