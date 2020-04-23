@@ -69,9 +69,10 @@ git和GitHub的就我做自己的补充，因为两位大佬说的都不全符�
 
 
 **二、 Github与Git的关联（综合了两个链接的方法）**
+
 0 前期工作
-   a. 到Github注册账号。
-   b. 本地配置用户名和邮箱（如果已经设置好，跳过该步）：
+    a. 到Github注册账号。
+    b. 本地配置用户名和邮箱（如果已经设置好，跳过该步）：
         git config --global user.name "你的用户名"
         git config --global user.email "你的邮箱"
     c. 生成ssh key
