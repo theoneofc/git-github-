@@ -39,17 +39,17 @@
 
 ***git小结***
 
- git init
+ --git init
 
- git add .
+ --git add .
 
- git commit -m "注释"
+ --git commit -m "注释"
 
- git status
+ --git status
 
- git log
+ --git log
 
- git reset --hard +
+ --git reset --hard +
 
 
 
