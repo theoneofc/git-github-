@@ -30,6 +30,7 @@
 1. git reset --hard HEAD^
 
  HEAD^表示上一个版本，HEAD^^表示上上一个版本，当然往上100个版本写100个^比较容易数不过来，所以写成HEAD~100。
+ 
 2. git reset --hard 版本号
 
  怎么找版本号 
