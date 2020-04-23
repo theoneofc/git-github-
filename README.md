@@ -30,6 +30,7 @@
 Git基础可以看下面两个链接，特别是上面没有的版本回退，还有SSH的创建
 
 https://www.jianshu.com/p/296d22275cdd
+
 https://www.cnblogs.com/schaepher/p/5561193.html
 
 git和GitHub的就我做自己的补充，因为两位大佬说的都不全符合我的想法
