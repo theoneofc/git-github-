@@ -24,12 +24,12 @@
 9. 你可以用git branch查看当前有哪些分支，当然，因为我们没有创建任何分支，目前只会有一个master分支。
 10. 使用git checkout -b feature创建一个名为feature的分支，再用git branch查看一下。
 以上是最最基本的Git操作，大家可以在此hello-world项目中随意尝试各种其他Git命令，最好的参考资料是Pro Git book。https://git-scm.com/book/zh/v2
+
 注意：学会Git的唯一方式是在实际使用中学习，切记不要尝试先记住一大堆理论知识或者Git命令。
 
 Git基础可以看下面两个链接，特别是上面没有的版本回退，还有SSH的创建
 
 https://www.jianshu.com/p/296d22275cdd
-
 https://www.cnblogs.com/schaepher/p/5561193.html
 
 git和GitHub的就我做自己的补充，因为两位大佬说的都不全符合我的想法
