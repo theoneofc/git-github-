@@ -79,7 +79,7 @@ git push -u origin master（初次）
 
 
 
-
+**大佬总结**
 设置用户名
 config --global user.name "你的用户名"
 
