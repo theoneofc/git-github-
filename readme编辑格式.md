@@ -23,9 +23,22 @@
     test四个空行
     
 #### 语法2
-```Hello,大家好，这是readme。一对```
+```
+Hello,大家好，这是readme。一对"三个`"
 test四个空行
 ```
+该语法也可以实现代码高亮，见[代码高亮](#代码高亮)
+
+### 文字高亮
+效果：`linux` `网络编程` `socket` `epoll`  
+也适合做一篇文章的tag
+
+### 链接
+```格式 [会显示出来的描述](跳转网址)```
+```例子 [百度](www.baidu.com)```
+
+效果 [百度](www.baidu.com)
+
     
 ### 斜体、粗体、删除线
 |语法|效果|
@@ -113,6 +126,15 @@ public static void main(String[]args){} //Java
 ----------
 Github的Markdown语法支持添加emoji表情，输入不同的符号码（两个冒号包围的字符）可以显示出不同的表情。 比如`:blush:`，可以显示:blush:。 
 具体每一个表情的符号码，可以查询GitHub的官方网页[http://www.emoji-cheat-sheet.com](http://www.emoji-cheat-sheet.com)。 但是这个网页每次都打开**奇慢**。。所以我整理到了本repo中，大家可以直接在此查看[emoji](https://github.com/guodongxiaren/README/blob/master/emoji.md)。 
+
+图片
+------
+基本格式：```![alt](URL title)```
+alt和title即对应HTML中的alt和title属性（**都可省略**）：
+- alt表示图片显示失败时的替换文本
+- title表示鼠标悬停在图片时的显示文本（**注意这里要加引号**） 
+*URL即图片的url地址，如果引用本仓库中的图片，直接使用**相对路径**就可了，如果引用其他github仓库中的图片要注意格式，即：`仓库地址/raw/分支名/图片路径`，如：
+```https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif```
 
 
 ## 块引用
