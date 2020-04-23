@@ -1,4 +1,3 @@
-
 # 一、Git的简单使用
 （参考链接：https://blog.csdn.net/javaandroid730/article/details/53522872 ）
 
@@ -9,7 +8,7 @@
 2. 双击安装，中间不用做任何改动，一直下一步就行。如果你想修改安装位置，请放在纯英文路径下。
 
 ***第二步 创建一个本地hello-world仓库***
-**一、Git的简单使用**
+
 0. 安装成功，你现在就可以使用git命令行工具了。在你想要下载代码的路径，点击鼠标右键，选择Git Bash here。注意，你的代码路径也应是纯英文的。（打开命令行（cmd）或者在想要创建repository的地方右键鼠标并点击 Git Bash Here 打开窗口）
 1. 在命令行输入 mkdir hello-word，创建一个新文件夹。你可以使用ls命令来查看当前目录下有哪些文件和文件夹。
 2. 输入cd hello-world进入新文件夹，注意在输入命令时，你可以用Tab键来自动补全。（也就是hello-world才是仓库）
@@ -69,7 +68,8 @@ https://www.cnblogs.com/schaepher/p/5561193.html
 git和GitHub的就我做自己的补充，因为两位大佬说的都不全符合我的想法
 
 
-**二、 Github与Git的关联（综合了两个链接的方法）**
+二、 Github与Git的关联（综合了两个链接的方法）
+-----
 
 0 前期工作
   a. 到Github注册账号。
