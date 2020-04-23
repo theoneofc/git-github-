@@ -1,9 +1,9 @@
-一、Git的简单使用 
+**一、Git的简单使用**
 （参考链接：https://blog.csdn.net/javaandroid730/article/details/53522872 ）
 
  git使用最好的参考资料是Pro Git book。https://git-scm.com/book/zh/v2
   
-第一步 下载Git for Windows
+*第一步 下载Git for Windows*
 1. 在官网点击Download，下载对应的exe文件，注意你的操作系统是32位还是64位。
 2. 双击安装，中间不用做任何改动，一直下一步就行。如果你想修改安装位置，请放在纯英文路径下。
 
