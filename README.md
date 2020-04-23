@@ -68,8 +68,8 @@ https://www.cnblogs.com/schaepher/p/5561193.html
 git和GitHub的就我做自己的补充，因为两位大佬说的都不全符合我的想法
 
 
-二、 Github与Git的关联
-最简单的方法（综合了两个链接的方法）
+**二、 Github与Git的关联（综合了两个链接的方法）**
+***最简单的方法（先远程建仓-克隆本地建立关联-初始化提交-普通提交）***
 1.	建GitHub仓库
 2.	本地clone（建立关联了）
 git clone + github克隆链接
@@ -77,6 +77,16 @@ git clone + github克隆链接
 3.	直接本地git有修改即add、commit后，提交远程github 你的修改
 git push -u origin master（初次）
 4.	然后后面的修改提交就都只用git push
+
+***第二种关联方式（本地建与远程同名仓ps 本地和远程谁先建都可-用命令建立关联-初始化提交-普通提交）***
+1. 本地建仓或已有仓（建仓就是文件夹git init）
+2. 远程建同名仓
+3. git remote add origin 你复制的地址->建立关联
+      如果你在创建 repository 的时候，加入了 README.md 或者 LICENSE (就是远程仓比本地仓高版本)，那么 github 会拒绝你的 push 。
+      你需要先执行 git pull origin master。（pull命令 从远程仓库同步，在本地版本低于远程仓库版本的时候，获取远程仓库的commit）
+4. 直接本地git有修改即add、commit后，提交远程github 你的修改
+git push -u origin master（初次）
+5.	然后后面的修改提交就都只用git push
 
 
 
