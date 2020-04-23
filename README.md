@@ -27,17 +27,34 @@
 以上是最最基本的Git操作，大家可以在此hello-world项目中随意尝试各种其他Git命令，最好的参考资料是Pro Git book。https://git-scm.com/book/zh/v2
 
 第三步：版本回退
-1 git reset --hard HEAD^
+
+1. git reset --hard HEAD^
 
  HEAD^表示上一个版本，HEAD^^表示上上一个版本，当然往上100个版本写100个^比较容易数不过来，所以写成HEAD~100。
  
-2 git reset --hard 版本号
+2. git reset --hard 版本号
 
  怎么找版本号 
  
     a. git log 可以
     
     b. git reflog 找寻所有历史版本号，满足您的所有需求
+
+**git小结
+
+git init
+
+git add .
+
+git commit -m ""
+
+git status
+
+git log
+
+git reset --hard +
+
+
 
 注意：学会Git的唯一方式是在实际使用中学习，切记不要尝试先记住一大堆理论知识或者Git命令。
 
@@ -59,5 +76,37 @@ git clone + github克隆链接
 3.	直接本地git有修改即add、commit后，提交远程github 你的修改
 git push -u origin master（初次）
 4.	然后后面的修改提交就都只用git push
+
+
+
+
+设置用户名
+config --global user.name "你的用户名"
+
+
+设置邮箱
+config --global user.email "你的邮箱"
+
+生成ssh key
+ssh-keygen -t rsa -C "你的邮箱"
+这条命令前面不用加git
+
+
+添加远程仓库
+remote add origin 你复制的地址
+设置origin
+
+
+上传并指定默认
+push -u origin master
+指定origin为默认主机，以后push默认上传到origin上
+
+提交到远程仓库
+push
+将当前分支增加的commit提交到远程仓库
+
+从远程仓库同步
+pull
+在本地版本低于远程仓库版本的时候，获取远程仓库的commit
 
 
