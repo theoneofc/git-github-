@@ -1,5 +1,5 @@
 **一、Git的简单使用**
-#**一、Git的简单使用**
+#一、Git的简单使用
 （参考链接：https://blog.csdn.net/javaandroid730/article/details/53522872 ）
 
  git使用最好的参考资料是Pro Git book。https://git-scm.com/book/zh/v2
