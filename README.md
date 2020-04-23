@@ -1,5 +1,5 @@
 一、Git的简单使用 
-（参考链接：https://blog.csdn.net/javaandroid730/article/details/53522872）
+（参考链接：https://blog.csdn.net/javaandroid730/article/details/53522872 ）
  最好的参考资料是Pro Git book。https://git-scm.com/book/zh/v2
   
 第一步 下载Git for Windows
