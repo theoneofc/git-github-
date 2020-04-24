@@ -77,15 +77,15 @@ git和GitHub的就我做自己的补充，因为两位大佬说的都不全符�
 
 0 前期工作  
 ```
-  a. 到Github注册账号。  
-  b. 本地配置用户名和邮箱（如果已经设置好，跳过该步）：  
-        git config --global user.name "你的用户名"
-        git config --global user.email "你的邮箱"
-  c. 生成ssh key
-        运行 ssh-keygen -t rsa -C "你的邮箱" ，它会有三次等待你输入，直接回车即可。
-        将生成的ssh key复制到剪贴板，执行 clip < ~/.ssh/id_rsa.pub （或者到上图提示的路径里去打开文件并复制）：
-  d. 打开Github，进入Settings--点击左边的 SSH and GPG keys--点new SSH key--将ssh key 粘贴到右边的Key里面，Title随便命名即可
-   --点击下面的---Add SSH key 就添加成功了---测试一下吧，执行 ssh -T git@github.com 
+a. 到Github注册账号。  
+b. 本地配置用户名和邮箱（如果已经设置好，跳过该步）：  
+    git config --global user.name "你的用户名"
+    git config --global user.email "你的邮箱"
+c. 生成ssh key
+    运行 ssh-keygen -t rsa -C "你的邮箱" ，它会有三次等待你输入，直接回车即可。
+    将生成的ssh key复制到剪贴板，执行 clip < ~/.ssh/id_rsa.pub （或者到上图提示的路径里去打开文件并复制）：
+d. 打开Github，进入Settings--点击左边的 SSH and GPG keys--点new SSH key--将ssh key粘贴到右边的Key里面，Title随便命名即可
+  --点击下面的---Add SSH key 就添加成功了---测试一下吧，执行 ssh -T git@github.com 
   ```
 
 ***最简单的方法（先远程建仓-克隆本地建立关联-初始化提交-普通提交）***
