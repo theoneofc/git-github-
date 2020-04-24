@@ -128,4 +128,14 @@ push
 pull
 在本地版本低于远程仓库版本的时候，获取远程仓库的commit
 
+## 补充
+2020.4.24
+```
+如果要删除github上的文件的话，好像只能本地操作，然后再反更新到github(初次提交的指令)
+步骤：本地操作--git add . + git commit -m "" -- git push -u origin master(初次提交的指令)--完成
+
+如果在github编写了文档什么的或者做了什么操作要更新到本地
+git pull（初次是git pull origin master）
+
+```
 
