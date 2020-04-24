@@ -183,13 +183,8 @@ Github的Markdown语法支持添加emoji表情，输入不同的符号码（两�
 
 
 
-
-代码  
+```代码  
 `<hello world>` 
-
-
-
-
 
 ### 单行文本    
 Hello,大家好，我是果冻虾仁。
