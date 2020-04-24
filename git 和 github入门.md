@@ -1,3 +1,6 @@
+```
+写在前面：git可以理解为计算机本地的版本管理器，github可以理解可以和git关联的远程版本管理器，用于存放git项目，故也发展成了最大的开源社区，有丰富的开源项目资源
+```
 # 一、Git的简单使用
 （参考链接：https://blog.csdn.net/javaandroid730/article/details/53522872 ）
 
