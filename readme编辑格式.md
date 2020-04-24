@@ -81,9 +81,9 @@ public static void main(String[]args){} //Java
 
 ### 链接
 ```格式 [会显示出来的描述](跳转网址)```
-```例子 [百度](www.baidu.com)```
+```例子 [百度](https://www.baidu.com)```
 
-效果 [百度](www.baidu.com)
+效果 [百度](https://www.baidu.com)
 
 ### 锚点\定位点\跳转点
 其实呢，每一个标题都是一个锚点，和HTML的锚点（`#`）类似，比如我们  
@@ -182,6 +182,9 @@ Github的Markdown语法支持添加emoji表情，输入不同的符号码（两�
 | Help      | ~~Display the~~ help window.|
 | Close     | _Closes_ a window     |
 
+参考文章：
+https://www.cnblogs.com/zeze/p/6565898.html  
+https://github.com/guodongxiaren/README/blob/master/README.md
 
 
 
