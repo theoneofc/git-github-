@@ -143,4 +143,9 @@ git pull（初次是git pull origin master）
 
 *PS:只需要git push就好了，仅第一次连接才需要git push -u origin master
 ```
+## 添加友情链接
+```
+13k stars 的git教程，据说是用心且优秀翻译外文作品所著
+https://github.com/geeeeeeeeek/git-recipes/tree/master
+```
 
