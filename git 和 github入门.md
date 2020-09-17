@@ -21,7 +21,7 @@ github可以理解可以和git关联的远程版本管理器，用于存放git�
 注意，在此处使用的所有命令，如果你是在Linux环境下开发，用法都是完全一样的。所以对于完全没有Linux使用经验的学员，这也是一个开始接触Linux工作方式的好方法。
 接下来，让我们创建一份简单的说明文件，并提交到版本库中。
 
-4. 输入echo "This is a simple practise" > readme.txt，创建一个readme.txt文件。（ps:> + 文件名 可创建文件）
+4. 输入echo "This is a simple practise" > readme.txt，创建一个readme.txt文件。（ps: '> + 文件名'命令 可创建文件）
 5. 输入git status查看当前版本库状态，在Untracked files(未跟踪文件)下，会出现红色的readme.txt，代表此文件还未被Git所管理。
 6. 使用git add readme.txt，将该文件加入缓冲区，如果你确定所有的修改都需要提交，可以使用git add .来加入所有修改。现在用git status查看，将看到文件名变为绿色。（add .多一点，因为不用去看文件名）
 7. 使用git commit -m "This is my first commit via Git!"来提交修改，-m后面所带的参数是本次提交信息，一般用来记录本次提交的主要意图。
@@ -83,7 +83,7 @@ b. 本地配置用户名和邮箱（如果已经设置好，跳过该步）：
     git config --global user.email "你的邮箱"
 c. 生成ssh key
     运行 ssh-keygen -t rsa -C "你的邮箱" ，它会有三次等待你输入，直接回车即可。
-    将生成的ssh key复制到剪贴板，执行 clip < ~/.ssh/id_rsa.pub （或者到上图提示的路径里去打开文件并复制）：
+    将生成的ssh key复制到剪贴板，执行 clip < ~/.ssh/id_rsa.pub （或者到git界面提示的文件路径里去打开文件并复制）：
 d. 打开Github，进入Settings--点击左边的 SSH and GPG keys--点new SSH key--将ssh key粘贴到右边的Key里面，Title随便命名即可
   --点击下面的---Add SSH key 就添加成功了---测试一下吧，执行 ssh -T git@github.com 
   ```
